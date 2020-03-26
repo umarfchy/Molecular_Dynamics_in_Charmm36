@@ -1,7 +1,7 @@
 title                   = Protein-ligand complex MD simulation 
 ; Run parameters
 integrator              = md        ; leap-frog integrator
-nsteps                  = 10000000   ; 2 * 10000000 = 10000 ps (20 ns)
+nsteps                  = 10000000   ; 2 * 10000000 = 20000 ps (20 ns)
 dt                      = 0.002     ; 2 fs
 ; Output control
 nstenergy               = 5000      ; save energies every 10.0 ps
