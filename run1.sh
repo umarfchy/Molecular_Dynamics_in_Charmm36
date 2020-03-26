@@ -1,6 +1,6 @@
 gmx pdb2gmx -f protein.pdb -o protein_processed.gro
 
-gmx editconf -f protein_processed.gro -o protein_newbox.gro -c -d  1.0 -bt cubic
+gmx editconf -f protein_processed.gro -o protein_newbox.gro -c -d  1.0 -bt dodecahedron
 
 gmx solvate  -cp protein_newbox.gro  -cs spc216.gro  -o protein_solv.gro -p topol.top 
 
