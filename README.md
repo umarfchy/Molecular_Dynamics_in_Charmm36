@@ -1,4 +1,4 @@
-# MD-GROMACS-CHARMM36-Only-Protein
+# Molecular_Dynamics_in_Charmm36
 
 This tutorial shows the basic process of performing molecular dynamics using GROMACS. It is similar to my previous [tutorial](https://github.com/Faruq01/Molecular-Dynamics-With-GROMACS) but with charmm36 force field was to perform a 20 nanosecond (ns) molecular dynamics of protein named Ubiquitin (pdb id: 1UBQ). It is by no means a comprehensive tutorial. Its just a quick way of performing the simulation to make life a little bit easier!!!
 
